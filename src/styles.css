@@ -182,8 +182,9 @@ h3{
 #footer {
     background-color: #f4f4f5;
     padding-top: 16px;
-    margin-top: 90px;
+    margin: 128px 0 0 0;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #footer-links{
@@ -192,7 +193,7 @@ h3{
 
 #footer-links li{
 display: inline;
-margin: 0 16px;
+margin: 16px ;
 }
 
 .copyright {
