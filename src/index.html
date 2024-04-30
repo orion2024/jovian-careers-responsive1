@@ -27,9 +27,10 @@
 
 <body>
     <div id="navbar">
-        <img id="logo" src="https://jovian.com/jovian_logo.svg" alt="Jovian Logo">
+        <img id="logo" src="/src/favicon2.webp" alt="Jovian Logo" height="30px">
+        <img height="30px" id="logo-with-text" src="https://jovian.com/jovian_logo.svg" alt="Jovian Logo with Text">
     </div>
-    <img id="banner" src="banner.jpg" alt="Banner" height="360">
+    <img id="banner" src="banner.jpg" alt="Banner" >
     <h1>
         Welcome to Jovian
     </h1>
@@ -59,14 +60,42 @@
             </p>
         </div>
         <div id="team">
-            <img id="team-image" src="team.jpg" alt="Team" height="200">
+            <img id="team-image" src="team.jpg" alt="Team" >
         </div>
     </div>
 
 
-    <h2>Open Job Opportunities</h2>
+    <h2>Job Opportunities</h2>
 
     <div id="jobs">
+
+        <div id="jobs-list">
+            <div class="job">
+                <div class="job-title">Frontend Developer</div>
+                <div class="job-detail">Bengaluru, India</div>
+                <div class="job-detail">₹ 12,00,000</div>
+                <div class="job-detail">Posted Mar 3, 2023</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Fullstack Developer</div>
+                <div class="job-detail">Delhi, India</div>
+                <div class="job-detail">₹ 15,00,000</div>
+                <div class="job-detail">Posted Feb 11, 2023</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Data Scientist</div>
+                <div class="job-detail">San Franciso, US</div>
+                <div class="job-detail">$ 175,000</div>
+                <div class="job-detail">Posted Dec 20, 2023</div>
+            </div>
+            <div class="job">
+                <div class="job-title">ML Engineer</div>
+                <div class="job-detail">Remote</div>
+                <div class="job-detail">$ 85,000</div>
+                <div class="job-detail">Posted Sep 19, 2023</div>
+            </div>
+        </div>
+
         <table id="jobs-table">
             <tr class="jobs-header-row">
                 <th rowspan="2">Job Title</th>
@@ -108,15 +137,12 @@
         </table>
     </div>
 
+    
+
     <div id="application">
         <h2>Submit your Application</h2>
         <!--TODO - sample form - remove later-->
         <form action="process-form.php" method="post" id="application-form" action="https://formbold.com/s/3wvKl" method="POST" enctype="multipart/form-data">
-            <div>
-                <label for="gender">Gender</label><br>
-                <input type="radio" id="gender" name="Gender" required>Mr
-                <input type="radio" id="gender" name="Gender" required>Mrs
-            </div>
             <div>
                 <label for="name">Full Name</label><br>
                 <input type="text" id="name" name="Full Name" required placeholder="John Doe">
