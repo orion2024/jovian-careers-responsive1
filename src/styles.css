@@ -4,136 +4,89 @@ body {
     font-family: monospace , sans-serif;
     /*color: rgb(60, 60, 88);*/
 }
-
 h1, h2, h3 {
     font-family: monospace, sans-serif;
 }
-
 a{
     text-decoration: none;
     color: #0ea5e9;
 }
-
 a:hover, a:focus{
     color: #bae6fd;
 }
-
 #navbar {
     padding: 32px;
 }
-
 #banner {
     object-fit: cover;
 }
-
-
-
-
-
-
 #about {
     display: flex;
     max-width: 800px;
     margin:0 auto;
     padding: 8px
 }
-
 #description {
     width: 50%;
     padding: 0 8px 0 0;
     font-size: 1.1rem;
     color: #71717a;
 }
-
 #team {
     width: 50%;
 }
-
 #team-image {
     border-radius: 5px;
     width: 100%;
 }
-
-
-
-
-
-
 #logo {
     height: 30px;
     margin: 0;
 }
-
 h1, h2 {
     text-align: center;
     color: #3f3f46;
     margin: 32px;
 }
-
 #banner {
     width: 100%;
 }
-
-
-
-
-
-
-
 #jobs-table {
     width: 100%;
     border: 1px solid #d4d4d8;
     border-collapse: collapse;
     font-size: 1.1rem;
 }
-
 .jobs-header-row th{
-    border: 1px solid);
+    border: 1px solid;
     padding: 10px;
     background-color: #d4d4d8;
     text-align: center;
     color: #3f3f46;
 }
-
 .jobs-data-row td{
     border: 1px solid #d4d4d8;
     padding: 8px;
     color: #71717a;
 }
-
 #jobs-table tr:nth-child(odd){
     background-color: #f4f4f5;
 }
-
-
-
-
-
-
 h2 {
     text-align: center;
 }
-
 #jobs {
     max-width: 800px;
     margin: 0 auto;
     padding: 8px;
 }
-
 h3{
     margin-bottom: 4px;
     margin-top: 0;
 }
-
 .apply{
     float: right;
 }
-
-
-
-
-
-
 #application{
     max-width: 800px;
     margin: 0 auto;
@@ -141,15 +94,12 @@ h3{
     padding: 0 8px;
     color: #71717a;
 }
-
 #application-form div{
     margin: 16px 0;
 }
-
 #application-form label{
     font-weight: 600;
 }
-
 #application-form input , select, textarea{
     padding: 8px;
     font-size: 1rem;
@@ -157,28 +107,19 @@ h3{
     border: 1px solid #d4d4d8;
     font-family: monospace;
 }
-
 #application-form textarea{
     width: 80%;
 }
-
 #application-form input[type="checkbox"] {
     width: 16px;
     height: 16px;
 }
-
 #application-form input[type="submit"] {
     background-color: #0ea5e9;
     color: white;
     font-weight: 500;
     cursor: pointer;
 }
-
-    
-
-
-
-
 #footer {
     background-color: #f4f4f5;
     padding-top: 16px;
@@ -186,16 +127,13 @@ h3{
     text-align: center;
     padding-bottom: 10px;
 }
-
 #footer-links{
     list-style: none;
 }
-
 #footer-links li{
 display: inline;
 margin: 16px ;
 }
-
 .copyright {
     color: #71717a;
     font-size: 0.875rem;
